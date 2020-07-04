@@ -47,13 +47,13 @@
             <version>1.16.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <!--Bukkit API-->
+<!--        Deprecation using Bukkit in favor of Spigot API
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
             <version>1.15.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
-        </dependency>
+        </dependency>-->
         <!--other third party deps-->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
