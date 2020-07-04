@@ -1,7 +1,5 @@
 package com.splunk.sharedmc.loggable_events;
 
-import com.splunk.sharedmc.utilities.Point3d;
-
 public interface LoggableEvent {
 
     /**

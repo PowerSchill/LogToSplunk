@@ -1,6 +1,5 @@
 package com.splunk.sharedmc.loggable_events;
 
-
 import com.splunk.sharedmc.utilities.LivingEntity;
 import com.splunk.sharedmc.utilities.Point3d;
 

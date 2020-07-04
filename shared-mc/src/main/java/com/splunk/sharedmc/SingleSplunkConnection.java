@@ -52,9 +52,9 @@ public class SingleSplunkConnection implements SplunkConnection, Runnable {
      * @param startImmediately If true, creates a thread and starts this Splunk on construction.
      */
     public SingleSplunkConnection(String host, int port, String server, String token, boolean startImmediately) {
-        logger = LogManager.getLogger(LOGGER_PREFIX + host + ':' + port);
-        this.token = token;
-        url = String.format(BASE_URL, host, port);
+        logger = LogManager.getLogger(LOGGER_PREFIX + host.trim() + ':' + port);
+        this.token = token.trim();
+        url = String.format(BASE_URL, host, port).trim();
         httpClient = HttpClients.createDefault();
 
         this.server = server;

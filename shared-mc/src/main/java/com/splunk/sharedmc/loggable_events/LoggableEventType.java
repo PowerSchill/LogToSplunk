@@ -7,6 +7,8 @@ public enum LoggableEventType {
     PLAYER("PlayerEvent"),
     BLOCK("BlockEvent"),
     DEATH("DeathEvent"),
+    SERVER("ServerEvent"),
+    VEHICLE("VehicleEvent"),
     ENTITY("EntityEvent");
 
     private final String eventName;
